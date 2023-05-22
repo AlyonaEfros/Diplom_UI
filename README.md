@@ -66,7 +66,7 @@ gradle clean test
 > <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты .
 
 ###  Удаленный запуск (в Jenkins):
-1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/dkolesnikova_hh/">проект</a>
+1. Открыть <a target="https://jenkins.autotests.cloud/job/alyonaefros_diplom_UI/">проект</a>
 
 ![This is an image](/images/screens/Jenkins1.png)
 
@@ -77,7 +77,7 @@ gradle clean test
 
 ![This is an image](/images/screens/Jenkins2.png)
 
-## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/dkolesnikova_hh/2/allure/#">Allure report</a>
+## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/alyonaefros_diplom_UI/8/allure/#">Allure report</a>
 
 ###  Главное окно
 
@@ -98,7 +98,7 @@ gradle clean test
 </p>
 
 
-## <img src="images/logo/Allure_TO.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://allure.autotests.cloud/launch/18382">Allure TestOps</a>
+## <img src="images/logo/Allure_TO.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://allure.autotests.cloud/launch/23993">Allure TestOps</a>
 
 ### Dashboard с  результатами тестирования
 <p align="center">
@@ -110,7 +110,7 @@ gradle clean test
 <img title="Allure Graphics" src="images/screens/allureTO-report.png">
 </p>
 
-## <img src="images/logo/jira-logo.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-502">Atlassian Jira</a>
+## <img src="images/logo/jira-logo.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-706">Atlassian Jira</a>
 <p align="center">
 <img title="Jira" src="images/screens/Jira1.png">
 </p>
@@ -119,4 +119,11 @@ gradle clean test
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/screens/telegramNotif.png" >
+</p>
+
+### <img width="4%" style="vertical-align:middle" title="Selenoid" src="images/logo/Selenoid.svg"> Видео примера запуска тестов в Selenoid
+
+К каждому тесту в отчете прилагается видео прогона.
+<p align="center">
+  <img title="Selenoid Video" src="images/screens/videoExample.gif">
 </p>

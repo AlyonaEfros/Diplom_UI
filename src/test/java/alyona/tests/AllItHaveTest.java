@@ -7,9 +7,8 @@ import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
 
-
 @Tag("Есть все!")
-public class EverythingIsThereTest extends TestBase {
+public class AllItHaveTest extends TestBase {
      MainPage mainPage = new MainPage();
 
     @Tag("UI")
