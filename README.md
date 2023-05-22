@@ -118,7 +118,7 @@ gradle clean test
 ## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram о результатах прогона тестов
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/screens/telegramNotif.png" >
+<img title="Allure Overview Dashboard" src="images/screens/telegramNotif.jpg" >
 </p>
 
 ### <img width="4%" style="vertical-align:middle" title="Selenoid" src="images/logo/Selenoid.svg"> Видео примера запуска тестов в Selenoid
