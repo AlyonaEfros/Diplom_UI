@@ -106,12 +106,12 @@ gradle clean test
 
 ### Dashboard с  результатами тестирования
 <p align="center">
-<img title="Allure Graphics" src="images/screens/allureTO_dashboard.png">
+<img title="Allure Graphics" src="images/screens/allureTO_report.png">
 </p>
 
 ### Пример отчёта выполнения одного из автотестов
 <p align="center">
-<img title="Allure Graphics" src="images/screens/allureTO-report.png">
+<img title="Allure Graphics" src="images/screens/allureTO-dashboard.png">
 </p>
 
 ## <img src="images/logo/jira-logo.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-706">Atlassian Jira</a>
