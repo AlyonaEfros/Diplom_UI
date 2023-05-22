@@ -66,7 +66,7 @@ gradle clean test
 > <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты .
 
 ###  Удаленный запуск (в Jenkins):
-1. Открыть <a target="https://jenkins.autotests.cloud/job/alyonaefros_diplom_UI/">проект</a>
+1.  Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/dkolesnikova_hh/">проект</a>
 
 ![This is an image](/images/screens/Jenkins1.png)
 
