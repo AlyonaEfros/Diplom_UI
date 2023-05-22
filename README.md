@@ -77,7 +77,7 @@ gradle clean test
 
 ![This is an image](/images/screens/Jenkins2.png)
 
-## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/alyonaefros_diplom_UI/8/allure/#">Allure report</a>
+## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/alyonaefros_diplom_UI/9/allure/#">Allure report</a>
 
 ###  Главное окно
 
@@ -102,16 +102,16 @@ gradle clean test
 </p>
 
 
-## <img src="images/logo/Allure_TO.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://allure.autotests.cloud/launch/23993">Allure TestOps</a>
+## <img src="images/logo/Allure_TO.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://allure.autotests.cloud/launch/23998">Allure TestOps</a>
 
 ### Dashboard с  результатами тестирования
 <p align="center">
-<img title="Allure Graphics" src="images/screens/allureTO_report.png">
+<img title="Allure Graphics" src="images/screens/allureTO-report.png">
 </p>
 
 ### Пример отчёта выполнения одного из автотестов
 <p align="center">
-<img title="Allure Graphics" src="images/screens/allureTO-dashboard.png">
+<img title="Allure Graphics" src="images/screens/allureTO_dashboard.png">
 </p>
 
 ## <img src="images/logo/jira-logo.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-706">Atlassian Jira</a>
