@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
 
-@Tag("Есть все!")
-public class AllItHaveTest extends TestBase {
+@Tag("fix-price")
+public class FixPriceTest extends TestBase {
      MainPage mainPage = new MainPage();
 
     @Tag("UI")
@@ -16,23 +16,17 @@ public class AllItHaveTest extends TestBase {
     @DisplayName("Проверка поисковой выдачи")
     public void searchResults() {
 
-        step("Открытие главной страницы Есть все!", () ->
-                mainPage.openPage());
-
         step("Поиск товара", () ->
-                mainPage.searchProduct("краска акриловая"));
+                mainPage.searchProduct("кашпо"));
 
         step("Проверка нужного товара в поисковой выдаче", () ->
-                mainPage.checkingProductInIssue("краска акриловая"));
+                mainPage.checkingProductInIssue("кашпо"));
     }
 
     @Tag("UI")
     @Test
     @DisplayName("Проверка на изменения города")
     public void cityChanges() {
-
-        step("Открытие главной страницы Есть все!", () ->
-                mainPage.openPage());
 
         step("Переход на вкладу изменение города", () ->
                 mainPage.changingCity());
@@ -49,11 +43,11 @@ public class AllItHaveTest extends TestBase {
     @DisplayName("Проверка перемещения товара в корзину")
     public void productInCart() {
 
-        step("Открытие главной страницы Есть все!", () ->
-                mainPage.openPage());
+        step("Выбор магазина", () ->
+                mainPage.choosingStore());
 
         step("Поиск товара", () ->
-                mainPage.searchProduct("краска акриловая"));
+                mainPage.searchProduct("кашпо"));
 
         step("Перемещение товара в корзину", () ->
                 mainPage.productToCart());
@@ -62,19 +56,16 @@ public class AllItHaveTest extends TestBase {
                 mainPage.openShoppingCart());
 
         step("Проверка на нахождение товара в корзине", () ->
-                mainPage.checkingShoppingCart("краска акриловая"));
+                mainPage.checkingShoppingCart("кашпо"));
     }
 
     @Tag("UI")
     @Test
-    @DisplayName("Проверка страницы о нас")
+    @DisplayName("Проверка страницы Работа у нас")
     public void pagesAboutUs() {
 
-        step("Открытие главной страницы Есть все!", () ->
-                mainPage.openPage());
-
-        step("Переход на странцу о нас", () ->
-                mainPage.pagesAboutUs());
+        step("Переход на странцу Работа у нас", () ->
+                mainPage.page());
 
         step("Проверка информации на странице", () ->
                 mainPage.checkingPage());
@@ -84,11 +75,9 @@ public class AllItHaveTest extends TestBase {
     @Test
     @DisplayName("Проверка работы закладок")
     public void checkingWishlist() {
-        step("Открытие главной страницы Есть все!", () ->
-                mainPage.openPage());
 
         step("Поиск товара", () ->
-                mainPage.searchProduct("краска акриловая"));
+                mainPage.searchProduct("кашпо"));
 
         step("Перемещение товара в закладки", () ->
                 mainPage.productToWishlist());
@@ -97,7 +86,7 @@ public class AllItHaveTest extends TestBase {
                 mainPage.openWishlist());
 
         step("Проверка на нахождение товара в закладках", () ->
-                mainPage.checkingWishlist("краска акриловая"));
+                mainPage.checkingWishlist("кашпо"));
     }
 }
 

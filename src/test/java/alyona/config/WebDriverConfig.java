@@ -3,7 +3,7 @@ package alyona.config;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "classpath:ru.hh.config/${env}.properties"
+        "classpath:alyona.config/${env}.properties"
 })
 public interface WebDriverConfig extends Config {
     @Key("browserName")
@@ -19,7 +19,7 @@ public interface WebDriverConfig extends Config {
     String getBrowserSize();
 
     @Key("baseUrl")
-    @DefaultValue("https://piter.allithave.ru/")
+    @DefaultValue("https://fix-price.com/")
     String getBaseUrl();
 
     @Key("remoteUrl")
