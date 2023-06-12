@@ -97,7 +97,7 @@ gradle clean test
 <img title="Allure Graphics" src="images/screens/Allure_Report3.png">
 </p>
 
-## <img src="images/logo/Allure_TO.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://allure.autotests.cloud/launch/23998">Allure TestOps</a>
+## <img src="images/logo/Allure_TO.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/2295/dashboards">Allure TestOps</a>
 
 ### Dashboard с  результатами тестирования
 <p align="center">
