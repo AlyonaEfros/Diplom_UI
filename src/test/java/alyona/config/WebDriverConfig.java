@@ -3,7 +3,7 @@ package alyona.config;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "classpath:alyona.config/${env}.properties"
+        "classpath:alyona.${env}.properties"
 })
 public interface WebDriverConfig extends Config {
     @Key("browserName")

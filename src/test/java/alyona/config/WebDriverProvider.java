@@ -15,11 +15,11 @@ public class WebDriverProvider {
         String remoteUrl = WebDriverProvider.config.getRemoteUrl();
         if (remoteUrl != null) {
             Configuration.remote = remoteUrl;
-        }
 
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("enableVNC", true);
-        capabilities.setCapability("enableVideo", true);
-        Configuration.browserCapabilities = capabilities;
+            DesiredCapabilities capabilities = new DesiredCapabilities();
+            capabilities.setCapability("enableVNC", true);
+            capabilities.setCapability("enableVideo", true);
+            Configuration.browserCapabilities = capabilities;
+        }
     }
 }
