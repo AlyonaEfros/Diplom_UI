@@ -47,23 +47,18 @@ gradle clean test
 ### Удаленный запуск тестов
 
 ```bash
-gradle clean test 
--Dbrowser=${BROWSER}
--DbrowserVersion=${BROWSER_VERSION}
--DbrowserSize=${BROWSER_SIZE}
--DremoteUrl=${REMOTE_URL}
--DbaseUrl=${BASE_URL}
+gradle clean test -Denv = 'remote'
 ```
 
 ### Параметры сборки
 
-> <code>REMOTE_URL</code> – адрес удаленного сервера, на котором будут запускаться тесты.
+> <code>remoteUrl</code> – адрес удаленного сервера, на котором будут запускаться тесты.
 >
-> <code>BROWSER</code> – браузер, в котором будут выполняться тесты .
+> <code>browserName</code> – браузер, в котором будут выполняться тесты .
 >
-> <code>BROWSER_VERSION</code> – версия браузера, в которой будут выполняться тесты .
+> <code>browserVersion</code> – версия браузера, в которой будут выполняться тесты .
 >
-> <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты .
+> <code>browserSize</code> – размер окна браузера, в котором будут выполняться тесты .
 
 ###  Удаленный запуск (в Jenkins):
 1.  Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/alyonaefros_diplom_UI/">проект</a>
@@ -75,7 +70,7 @@ gradle clean test
 4. Нажать **Собрать**
 5. Результат запуска сборки можно посмотреть в отчёте Allure
 
-![This is an image](/images/screens/Jenkins2.png)
+![This is an image](/images/screens/Jenkins22.png)
 
 ## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/alyonaefros_diplom_UI/9/allure/#">Allure report</a>
 
