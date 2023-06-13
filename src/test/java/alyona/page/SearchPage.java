@@ -7,8 +7,8 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class SearchPage {
 
-    private final SelenideElement productsList = $("#gp5130228"),
-            toCard = $(".controls.grid-button"),
+    private final SelenideElement productsList = $("#gp1651028"),
+            toCard = $("button.gridProduct"),
             closeButton = $("button.close"),
             toWishlist = $("button.button-favorites"),
             inWishlist = $("a.favorite.link"),

@@ -28,7 +28,7 @@ public class MainPage {
     }
 
     public void checkingStore() {
-        storeAddress.shouldHave(text("г.Москва, пр-т Жукова Маршала, д.53, к.1"));
+        storeAddress.shouldBe(text("г.Москва, пр-т Жукова Маршала, д.53, к.1"));
     }
 
     public void searchProduct(String value) {

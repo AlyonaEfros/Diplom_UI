@@ -24,7 +24,7 @@ public class ShoppingCartTest extends TestBase {
                 mainPage.checkingStore());
 
         step("Ввести в поле поиска запрос и нажать enter", () ->
-                mainPage.searchProduct("кашпо"));
+                mainPage.searchProduct("крупа"));
 
         step("Переместить товар в корзину", () ->
                 searchPage.productToCart());
@@ -33,7 +33,7 @@ public class ShoppingCartTest extends TestBase {
                 searchPage.openShoppingCart());
 
         step("Проверить нахождение товара в корзине", () ->
-                shoppingCartPage.checkingShoppingCart("кашпо"));
+                shoppingCartPage.checkingShoppingCart("крупа"));
     }
 
 }

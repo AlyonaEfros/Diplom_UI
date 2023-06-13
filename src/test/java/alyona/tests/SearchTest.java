@@ -16,9 +16,9 @@ public class SearchTest extends TestBase {
     public void searchResultsTest() {
 
         step("Ввести в поле поиска запрос и нажать enter", () ->
-                mainPage.searchProduct("кашпо"));
+                mainPage.searchProduct("крупа"));
 
         step("Проверить нужный товара в поисковой выдаче", () ->
-                searchPage.checkingProductInIssue("кашпо"));
+                searchPage.checkingProductInIssue("крупа"));
     }
 }

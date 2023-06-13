@@ -18,7 +18,7 @@ public class WishListTest extends TestBase {
     public void wishlistTest() {
 
         step("Ввести в поле поиска запрос и нажать enter", () ->
-                mainPage.searchProduct("кашпо"));
+                mainPage.searchProduct("крупа"));
 
         step("Переместить товар в закладки", () ->
                 searchPage.productToWishlist());
@@ -27,6 +27,6 @@ public class WishListTest extends TestBase {
                 searchPage.openWishlist());
 
         step("Проверить нахождение товара в закладках", () ->
-                wishListPage.checkingWishlist("кашпо"));
+                wishListPage.checkingWishlist("крупа"));
     }
 }
