@@ -1,13 +1,11 @@
 package alyona.tests;
 
-import alyona.page.MainPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
 
 public class ChangeCityTest extends TestBase {
-    MainPage mainPage = new MainPage();
 
     @Test
     @DisplayName("Проверка на изменения города")

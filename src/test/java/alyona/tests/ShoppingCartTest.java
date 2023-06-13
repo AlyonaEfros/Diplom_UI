@@ -1,17 +1,11 @@
 package alyona.tests;
 
-import alyona.page.MainPage;
-import alyona.page.SearchPage;
-import alyona.page.ShoppingCartPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
 
 public class ShoppingCartTest extends TestBase {
-    MainPage mainPage = new MainPage();
-    SearchPage searchPage = new SearchPage();
-    ShoppingCartPage shoppingCartPage = new ShoppingCartPage();
 
     @Test
     @DisplayName("Проверка перемещения товара в корзину")
