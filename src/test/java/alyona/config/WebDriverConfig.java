@@ -2,7 +2,7 @@ package alyona.config;
 
 import org.aeonbits.owner.Config;
 @Config.Sources({
-        "system:properties"
+        "classpath:alyona.${env}.properties"
 })
 public interface WebDriverConfig extends Config {
 
